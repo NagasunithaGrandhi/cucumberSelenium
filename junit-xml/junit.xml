@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="41.634098">
+<testcase classname="Cheking the Registration using map" name="Test Registration using Map" time="41.634098">
+<system-out><![CDATA[Given user is already on home  page.........................................passed
+When Title of home Page is Nridesicharms....................................passed
+Then Click on Register button...............................................passed
+And user enters registration details........................................passed
+Then close the Browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
