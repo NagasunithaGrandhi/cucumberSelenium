@@ -1,4 +1,4 @@
-package StepDefinitions;
+/*package StepDefinitions;
 import java.awt.event.ActionEvent;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
@@ -75,7 +75,7 @@ public void  click_on_submit_button()
 {
 	driver.findElement(By.xpath("//span[@class='pull-left dis-b']")).submit();
 	
-}*/
+}
 
 @Then("^close the Browser$")
 public void close_the_Browser()
@@ -83,3 +83,4 @@ public void close_the_Browser()
 driver.close();
 }
 }
+*/

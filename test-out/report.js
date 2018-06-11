@@ -1,119 +1,167 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/sunit_000/Desktop/testing/cucumberProject/src/main/java/Features/RegisterMap.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/sunit_000/Desktop/testing/cucumberProject/src/main/java/Features/TaggedHooks.feature");
 formatter.feature({
   "line": 1,
-  "name": "Cheking the Registration using map",
+  "name": "Validate NriDesiCharms Website",
   "description": "",
-  "id": "cheking-the-registration-using-map",
+  "id": "validate-nridesicharms-website",
   "keyword": "Feature"
 });
+formatter.before({
+  "duration": 171489,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 11324135902,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 10107972172,
+  "status": "passed"
+});
 formatter.scenario({
-  "line": 3,
-  "name": "Test Registration using Map",
+  "line": 4,
+  "name": "Test the deals page using taggedHooks",
   "description": "",
-  "id": "cheking-the-registration-using-map;test-registration-using-map",
+  "id": "validate-nridesicharms-website;test-the-deals-page-using-taggedhooks",
   "type": "scenario",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@First"
+    }
+  ]
 });
 formatter.step({
-  "line": 7,
-  "name": "user is already on home  page",
+  "line": 5,
+  "name": "user clicks on deals page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 8,
-  "name": "Title of home Page is Nridesicharms",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 9,
-  "name": "Click on Register button",
+  "line": 6,
+  "name": "search deals in it",
   "keyword": "Then "
+});
+formatter.match({
+  "location": "TaggedHooksDef.user_clicks_on_deals_page()"
+});
+formatter.result({
+  "duration": 349113941,
+  "status": "passed"
+});
+formatter.match({
+  "location": "TaggedHooksDef.search_deals_in_it()"
+});
+formatter.result({
+  "duration": 105203,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 2317142033,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 82965,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 314834836,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 10489684109,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 9211195663,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 9,
+  "name": "Test the Events page",
+  "description": "",
+  "id": "validate-nridesicharms-website;test-the-events-page",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 8,
+      "name": "@Second"
+    }
+  ]
 });
 formatter.step({
   "line": 10,
-  "name": "user enters registration details",
-  "rows": [
+  "name": "user clicks on Events Page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "TaggedHooksDef.user_clicks_on_Events_Page()"
+});
+formatter.result({
+  "duration": 129152,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 2085043881,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 92801,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 2091017365,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 9051044034,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 138560,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 9459282549,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 13,
+  "name": "Test the DesiBazar",
+  "description": "",
+  "id": "validate-nridesicharms-website;test-the-desibazar",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
     {
-      "cells": [
-        "FirstName",
-        "LastName",
-        "Email",
-        "password",
-        "Re-password"
-      ],
-      "line": 11
-    },
-    {
-      "cells": [
-        "Rani5",
-        "guntur1",
-        "rp99@gmail.com",
-        "Runitha@1",
-        "Runitha@1"
-      ],
-      "line": 12
-    },
-    {
-      "cells": [
-        "Rani7",
-        "guntur2",
-        "rn10@gmail.com",
-        "Runitha@1",
-        "Runitha@1"
-      ],
-      "line": 13
-    },
-    {
-      "cells": [
-        "Rani9",
-        "guntur3",
-        "ra91@gmail.com",
-        "Runitha@1",
-        "Runitha@1"
-      ],
-      "line": 14
+      "line": 12,
+      "name": "@Third"
     }
-  ],
-  "keyword": "And "
+  ]
 });
 formatter.step({
-  "line": 15,
-  "name": "close the Browser",
-  "keyword": "Then "
+  "line": 14,
+  "name": "user clicks on Desi Bazar",
+  "keyword": "Given "
 });
 formatter.match({
-  "location": "RegistrationStepDef.user_is_already_on_home_page()"
+  "location": "TaggedHooksDef.user_clicks_on_Desi_Bazar()"
 });
 formatter.result({
-  "duration": 10854966827,
+  "duration": 82965,
   "status": "passed"
 });
-formatter.match({
-  "location": "RegistrationStepDef.title_of_home_Page_is_Nridesicharms()"
-});
-formatter.result({
-  "duration": 48436622,
+formatter.after({
+  "duration": 2341375954,
   "status": "passed"
 });
-formatter.match({
-  "location": "RegistrationStepDef.Click_on_Register_button()"
-});
-formatter.result({
-  "duration": 194727956,
+formatter.after({
+  "duration": 113756,
   "status": "passed"
 });
-formatter.match({
-  "location": "RegistrationStepDef.user_enters_registration_details(DataTable)"
-});
-formatter.result({
-  "duration": 28441683695,
-  "status": "passed"
-});
-formatter.match({
-  "location": "RegistrationStepDef.close_the_Browser()"
-});
-formatter.result({
-  "duration": 2094283366,
+formatter.after({
+  "duration": 2096886073,
   "status": "passed"
 });
 });

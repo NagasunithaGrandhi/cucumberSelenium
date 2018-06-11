@@ -1,10 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="41.634098">
-<testcase classname="Cheking the Registration using map" name="Test Registration using Map" time="41.634098">
-<system-out><![CDATA[Given user is already on home  page.........................................passed
-When Title of home Page is Nridesicharms....................................passed
-Then Click on Register button...............................................passed
-And user enters registration details........................................passed
-Then close the Browser......................................................passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="71.239646">
+<testcase classname="Validate NriDesiCharms Website" name="Test the deals page using taggedHooks" time="24.413559">
+<system-out><![CDATA[Given user clicks on deals page.............................................passed
+Then search deals in it.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate NriDesiCharms Website" name="Test the Events page" time="23.877163">
+<system-out><![CDATA[Given user clicks on Events Page............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate NriDesiCharms Website" name="Test the DesiBazar" time="22.948924">
+<system-out><![CDATA[Given user clicks on Desi Bazar.............................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

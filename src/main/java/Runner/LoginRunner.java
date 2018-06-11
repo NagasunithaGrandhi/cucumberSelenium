@@ -9,11 +9,13 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 //@RunWith(Cucumber.class)
 
-@CucumberOptions(features= "C:\\Users\\sunit_000\\Desktop\\testing\\cucumberProject\\src\\main\\java\\Features",
+@CucumberOptions(features= "C:\\Users\\sunit_000\\Desktop\\testing\\cucumberProject\\src\\main\\java\\Features\\TaggedHooks.feature",
 glue= {"StepDefinitions"},format= {"pretty","html:test-out","json:test-json/cucumber.json","junit:junit-xml/junit.xml"},
 monochrome=true,//it will disply a pretty output in console
-dryRun=false//
+dryRun=false,//
 //strict=true
+tags= {"~@SmokeTest,~@RegressionTest"}//:OR operator={"@SmokeTest,@RegressionTest"}
+                    //:AND operator={"@SmokeTest"," @RegressionTest"}
 )
 @Test
 public class LoginRunner extends AbstractTestNGCucumberTests {
