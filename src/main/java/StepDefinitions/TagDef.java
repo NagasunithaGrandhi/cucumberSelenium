@@ -1,4 +1,4 @@
-package StepDefinitions;
+/*package StepDefinitions;
 
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
@@ -41,4 +41,4 @@ public class TagDef
 	}
 
 
-}
+}*/

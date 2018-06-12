@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="71.239646">
-<testcase classname="Validate NriDesiCharms Website" name="Test the deals page using taggedHooks" time="24.413559">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="100.677873">
+<testcase classname="Validate NriDesiCharms Website" name="Test the deals page using taggedHooks" time="51.555073">
 <system-out><![CDATA[Given user clicks on deals page.............................................passed
 Then search deals in it.....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Validate NriDesiCharms Website" name="Test the Events page" time="23.877163">
+<testcase classname="Validate NriDesiCharms Website" name="Test the Events page" time="28.481494">
 <system-out><![CDATA[Given user clicks on Events Page............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Validate NriDesiCharms Website" name="Test the DesiBazar" time="22.948924">
+<testcase classname="Validate NriDesiCharms Website" name="Test the DesiBazar" time="20.641306">
 <system-out><![CDATA[Given user clicks on Desi Bazar.............................................passed
 ]]></system-out>
 </testcase>

@@ -7,15 +7,15 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 171489,
+  "duration": 283536,
   "status": "passed"
 });
 formatter.before({
-  "duration": 11324135902,
+  "duration": 30804711388,
   "status": "passed"
 });
 formatter.before({
-  "duration": 10107972172,
+  "duration": 17343601898,
   "status": "passed"
 });
 formatter.scenario({
@@ -46,34 +46,38 @@ formatter.match({
   "location": "TaggedHooksDef.user_clicks_on_deals_page()"
 });
 formatter.result({
-  "duration": 349113941,
+  "duration": 2591678520,
   "status": "passed"
 });
 formatter.match({
   "location": "TaggedHooksDef.search_deals_in_it()"
 });
 formatter.result({
-  "duration": 105203,
+  "duration": 75267,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2317142033,
+  "duration": 537004978,
   "status": "passed"
 });
 formatter.after({
-  "duration": 82965,
+  "duration": 64575,
   "status": "passed"
 });
 formatter.after({
-  "duration": 314834836,
+  "duration": 277653235,
   "status": "passed"
 });
 formatter.before({
-  "duration": 10489684109,
+  "duration": 81254,
   "status": "passed"
 });
 formatter.before({
-  "duration": 9211195663,
+  "duration": 12666646424,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 11187507431,
   "status": "passed"
 });
 formatter.scenario({
@@ -99,31 +103,31 @@ formatter.match({
   "location": "TaggedHooksDef.user_clicks_on_Events_Page()"
 });
 formatter.result({
-  "duration": 129152,
+  "duration": 67142,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2085043881,
+  "duration": 2304524076,
   "status": "passed"
 });
 formatter.after({
-  "duration": 92801,
+  "duration": 62866,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2091017365,
+  "duration": 2322604470,
   "status": "passed"
 });
 formatter.before({
-  "duration": 9051044034,
+  "duration": 58589,
   "status": "passed"
 });
 formatter.before({
-  "duration": 138560,
+  "duration": 8695573001,
   "status": "passed"
 });
 formatter.before({
-  "duration": 9459282549,
+  "duration": 9266721949,
   "status": "passed"
 });
 formatter.scenario({
@@ -149,19 +153,19 @@ formatter.match({
   "location": "TaggedHooksDef.user_clicks_on_Desi_Bazar()"
 });
 formatter.result({
-  "duration": 82965,
+  "duration": 91091,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2341375954,
+  "duration": 335873318,
   "status": "passed"
 });
 formatter.after({
-  "duration": 113756,
+  "duration": 124447,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2096886073,
+  "duration": 2342863338,
   "status": "passed"
 });
 });

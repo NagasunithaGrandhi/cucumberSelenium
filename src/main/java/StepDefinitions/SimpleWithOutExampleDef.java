@@ -1,4 +1,4 @@
-package StepDefinitions;
+/*package StepDefinitions;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -52,4 +52,4 @@ public void user_is_logged_in_using_his_Account()
  //   Assert.assertEquals("Nridesicharms",g);
 	Assert.assertEquals("Nridesicharms",g);
 }
-}
+}*/
